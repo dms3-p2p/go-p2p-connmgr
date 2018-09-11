@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	tu "github.com/libp2p/go-testutil"
+	inet "github.com/dms3-p2p/go-p2p-net"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	tu "github.com/dms3-p2p/go-testutil"
 )
 
 type tconn struct {

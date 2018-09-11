@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	logging "github.com/ipfs/go-log"
-	"github.com/libp2p/go-libp2p-interface-connmgr"
-	inet "github.com/libp2p/go-libp2p-net"
-	"github.com/libp2p/go-libp2p-peer"
-	ma "github.com/multiformats/go-multiaddr"
+	logging "github.com/dms3-fs/go-log"
+	"github.com/dms3-p2p/go-p2p-interface-connmgr"
+	inet "github.com/dms3-p2p/go-p2p-net"
+	"github.com/dms3-p2p/go-p2p-peer"
+	ma "github.com/dms3-mft/go-multiaddr"
 )
 
 var log = logging.Logger("connmgr")
